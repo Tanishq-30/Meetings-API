@@ -8,11 +8,11 @@ import (
 )
 
 type Meeting struct {
-  Id				 string `json:"Id"`
-  Title				 string `json:"Title"`
-  Participants 	 	 string `json:"Participants"`
-  StartTime    	 string `json:"Start_Time"`
-  EndTime      	 string `json:"End_Time"`
+  Id		    string `json:"Id"`
+  Title			string `json:"Title"`
+  Participants  string `json:"Participants"`
+  StartTime     string `json:"Start_Time"`
+  EndTime     	string `json:"End_Time"`
   CreationTimestamp string `json:"Creation_Timestamp"`
 }
 
